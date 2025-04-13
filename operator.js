@@ -1,3 +1,4 @@
+//         Davomini ham push qilaman bugunni o'zida
 // // 1. **Ball baholash**
 // let baho = prompt("O'quvchini 1 dan 100 gacha baholang.");
 // if (baho <= 100 && baho >= 90) {
