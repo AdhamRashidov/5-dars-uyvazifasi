@@ -1,3 +1,6 @@
+//          Davomini ham push qilaman bugunni o'zida
+
+
 // // 1. **Ball baholash**
 // let baho = prompt("O'quvchini 1 dan 100 gacha baholang.");
 // if (baho <= 100 && baho >= 90) {
@@ -178,25 +181,84 @@
 // }
 
 
-// 9. **Baho tavsifi**
-let bahogaBaho = +prompt("O'quvchini 1 dan 5 gacha baholang.");
-switch (bahogaBaho) {
-    case 5:
-        alert("A'lo")
-        break;
-    case 4:
-        alert("Yaxshi")
-        break;
-    case 3:
-        alert("Qoniqarli")
-        break;
-    case 2:
-        alert("Qoniqarlisiz")
-        break;
-    case 1:
-        alert("Yomon")
-        break;
-    default:
-        alert("Noto'g'ri baho")
-        break;
-}
+// // 9. **Baho tavsifi**
+// let bahogaBaho = +prompt("O'quvchini 1 dan 5 gacha baholang.");
+// switch (bahogaBaho) {
+//     case 5:
+//         alert("A'lo")
+//         break;
+//     case 4:
+//         alert("Yaxshi")
+//         break;
+//     case 3:
+//         alert("Qoniqarli")
+//         break;
+//     case 2:
+//         alert("Qoniqarlisiz")
+//         break;
+//     case 1:
+//         alert("Yomon")
+//         break;
+//     default:
+//         alert("Noto'g'ri baho")
+//         break;
+// }
+
+
+// // 10. **Yil fasllari**
+// let faslName = prompt("Fasl nomini kiriting.");
+// switch (faslName) {
+//     case 'Bahor':
+//     case 'bahor':
+//         alert("1. Mart\n2. Aprel\n3. May");
+//         break;
+//     case 'Yoz':
+//     case 'yoz':
+//         alert("1. Iyun\n2. Iyul\n3. Avgust");
+//         break;
+//     case 'Kuz':
+//     case 'kuz':
+//         alert("1. Sentabr\n2. Oktabr\n3. Noyabr");
+//         break;
+//     case 'Qish':
+//     case 'qish':
+//         alert("1. Dekabr\n2. Yanvar\n3. Fevral");
+//         break;
+//     default:
+//         alert("Bunday fasl yo'q.");
+//         break;
+// }
+
+
+// // 11. **Son tavsifi**
+// let sonTekshir = Number(prompt("Biror son kiriting."));
+// (sonTekshir === 0)
+//     ? alert("Bu nol!")
+//     : (sonTekshir < 0)
+//         ? (sonTekshir % 2 === 0 ? alert("Manfiy juft") : alert("Manfiy toq"))
+//         : (sonTekshir % 2 === 0 ? alert("Musbat juft") : alert("Musbat toq"));
+
+
+// // 12. **Rang kodi**
+// let color = prompt("Ranglardan biri tanlang (qizil/yashil/ko'k)");
+// switch (color) {
+//     case "Qizil":
+//     case "qizil":
+//         alert("#FF0000")
+//         break;
+//     case "Yashil":
+//     case "yashil":
+//         alert("#00FF00")
+//         break;
+//     case "Ko'k":
+//     case "ko'k":
+//     case "Kok":
+//     case 'kok':
+//     case 'Kuk':
+//     case 'kuk':
+//         alert("#0000FF")
+//         break;
+//     default:
+//         alert("Bunday rang kodi yo'q")
+//         break;
+// }
