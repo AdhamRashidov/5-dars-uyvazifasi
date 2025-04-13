@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 //          Davomini ham push qilaman bugunni o'zida
 
 
+=======
+//         Davomini ham push qilaman bugunni o'zida
+>>>>>>> c1166df2ca1a85c06165b37c789f14f2d617038c
 // // 1. **Ball baholash**
 // let baho = prompt("O'quvchini 1 dan 100 gacha baholang.");
 // if (baho <= 100 && baho >= 90) {
@@ -181,6 +185,7 @@
 // }
 
 
+<<<<<<< HEAD
 // // 9. **Baho tavsifi**
 // let bahogaBaho = +prompt("O'quvchini 1 dan 5 gacha baholang.");
 // switch (bahogaBaho) {
@@ -262,3 +267,27 @@
 //         alert("Bunday rang kodi yo'q")
 //         break;
 // }
+=======
+// 9. **Baho tavsifi**
+let bahogaBaho = +prompt("O'quvchini 1 dan 5 gacha baholang.");
+switch (bahogaBaho) {
+    case 5:
+        alert("A'lo")
+        break;
+    case 4:
+        alert("Yaxshi")
+        break;
+    case 3:
+        alert("Qoniqarli")
+        break;
+    case 2:
+        alert("Qoniqarlisiz")
+        break;
+    case 1:
+        alert("Yomon")
+        break;
+    default:
+        alert("Noto'g'ri baho")
+        break;
+}
+>>>>>>> c1166df2ca1a85c06165b37c789f14f2d617038c
