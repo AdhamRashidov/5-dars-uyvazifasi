@@ -82,13 +82,13 @@
 // console.log(result);
 
 
-// 8. **Ichma-ich loop**
-let n = +prompt("n ni kiriting:");
+// // 8. **Ichma-ich loop**
+// let n = +prompt("n ni kiriting:");
 
-for (let i = 1; i <= n; i++) {
-    let row = "";
-    for (let j = 1; j <= n; j++) {
-        row += (i * j) + "\t"; 
-    }
-    console.log(row);
-}
+// for (let i = 1; i <= n; i++) {
+//     let row = "";
+//     for (let j = 1; j <= n; j++) {
+//         row += (i * j) + "\t"; 
+//     }
+//     console.log(row);
+// }
